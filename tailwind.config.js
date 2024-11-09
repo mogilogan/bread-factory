@@ -11,6 +11,12 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        blackadder: ['Blackadder'],
+        pacifico: ['Pacifico' ,'cursive'],
+        frijole:['Frijole']
+
+      },
     },
   },
   plugins: [],
