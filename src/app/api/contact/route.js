@@ -46,6 +46,7 @@ export async function POST(request) {
 
     } catch (error) {
         console.log(error)
-        NextResponse.error({ message: "COULD NOT SEND MESSAGE" })
+       return NextResponse.error({ message: "COULD NOT SEND MESSAGE" })
     }
+    
 }

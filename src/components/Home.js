@@ -20,6 +20,7 @@ const Home = () => {
 
       <div className=" flex justify-center mx-auto items-center flex-1 ">
         <Image
+        unoptimized
           src={"/assests/head4.gif"}
           width={0}
           className="w-full lg:w-[700px] h-full rounded-3xl p-4"
