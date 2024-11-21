@@ -11,7 +11,7 @@ const Story = () => {
         <div className="w-[80%] text-start font-indie   mx-auto text-[18px] md:text-[20px]   xl:text-[30px] order-last md:order-none md:row-span-2 md:col-span-2">
           <p>
             Welcome to Bread Factory, where flavors and people meet! Since June
-            2016, we've been delighting customers with our premium quality
+            2016, we&apos;ve been delighting customers with our premium quality
             products and a steadfast commitment to a zero-chemical policy. At
             Bread Factory, we specialize in creating customized celebration
             cakes that make every occasion unforgettable. Our expert bakers
@@ -63,7 +63,7 @@ const Story = () => {
         <div className="w-[80%] mx-auto text-start text-[18px] md:text-[20px] font-indie   xl:text-[30px]  order-last md:order-none md:row-span-2 md:col-span-2">
           <p>
              For those seeking healthier options, we offer a selection of
-            wholesome whole wheat bread that doesn't compromise on flavor. In
+            wholesome whole wheat bread that doesn&apos;t compromise on flavor. In
             addition to our cakes and cookies, we offer a wide variety of bread,
             buns, puffs, spicy rolls, and sandwiches to satisfy all your
             cravings. Visit Bread Factory today and experience a place where
