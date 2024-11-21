@@ -7,6 +7,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+      
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
@@ -14,7 +15,9 @@ module.exports = {
       fontFamily: {
         blackadder: ['Blackadder'],
         pacifico: ['Pacifico' ,'cursive'],
-        frijole:['Frijole']
+        frijole:['Frijole'],
+        indie:['Indie Flower'],
+        nosifer:['Nosifer']
 
       },
     },

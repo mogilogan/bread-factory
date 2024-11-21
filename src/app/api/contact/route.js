@@ -4,9 +4,9 @@ const nodemailer = require('nodemailer');
 // Handles POST requests to /api
 
 export async function POST(request) {
-    const username = "xxx";
-    const password = "xxx";
-    const myEmail = "xxx";
+    const username = "thebreadfactorypondy@gmail.com";
+    const password = process.env.GMAIL_PASSKEY;
+    const myEmail = "thebreadfactorypondy@gmail.com";
 
     const formData = await request.formData()
     const name = formData.get('name')
@@ -34,7 +34,7 @@ export async function POST(request) {
             from: username,
             to: myEmail,
             replyTo: email,
-            subject: `Website activity from ${email}`,
+            subject: `Website Query from Customer: ${email}`,
             html: `
             <p>Name: ${name} </p>
             <p>Email: ${email} </p>
