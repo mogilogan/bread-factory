@@ -14,7 +14,7 @@ const Home = () => {
           Bread Factory
         </p>
         <p className=" font-pacifico sm:font-bold text-md sm:text-3xl text-center text-[#433636]">
-          Where People and Flavours Meet
+          Where Flavours and People Meet
         </p>
       </div>
 

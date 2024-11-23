@@ -6,7 +6,7 @@ const Value = () => {
     <div>
       <div className="flex flex-col md:flex-row justify-center items-center h-[400px] gap-[10%] my-10">
   {[
-    { text: "No Preservatives", src: "assests/svg/no-chemical.svg" },
+    { text: "No Chemical Policy", src: "assests/svg/no-chemical.svg" },
     { text: "Customizable Cakes", src: "assests/svg/cake.svg" },
     { text: "More Flavours", src: "assests/svg/bread.svg" },
   ].map((item, index) => (
@@ -37,7 +37,7 @@ const Value = () => {
 
 const Content = ()=>{
     return(
-        <> <p className="font-nosifer text-[80px] text-[#e690da]">Bread Factory</p> 
+        <> <p className="font-blackadder text-[80px] text-[#e690da]">Bread Factory</p> 
         <Image src={"/assests/svg/marquee/bread.svg"} alt="icons" width={80} height={80} />
         <Image src={"/assests/svg/marquee/cake.svg"} alt="icons" width={80} height={80} />
         <Image src={"/assests/svg/marquee/cookie.svg"} alt="icons" width={80} height={80} />
@@ -46,7 +46,7 @@ const Content = ()=>{
         <Image src={"/assests/svg/marquee/icecream.svg"} alt="icons" width={80} height={80} />
         <Image src={"/assests/svg/marquee/muffin.svg"} alt="icons" width={80} height={80} />
         <Image src={"/assests/svg/marquee/sand.svg"} alt="icons" width={80} height={80} />
-        <p className="font-nosifer text-[90px] text-[#8fd4e1]">Bread Factory</p> 
+        <p className="font-blackadder text-[90px] text-[#8fd4e1]">Bread Factory</p> 
         <Image src={"/assests/svg/marquee/bread.svg"} alt="icons" width={80} height={80} />
         <Image src={"/assests/svg/marquee/cake.svg"} alt="icons" width={80} height={80} />
         <Image src={"/assests/svg/marquee/cookie.svg"} alt="icons" width={80} height={80} />
@@ -55,7 +55,7 @@ const Content = ()=>{
         <Image src={"/assests/svg/marquee/icecream.svg"} alt="icons" width={80} height={80} />
         <Image src={"/assests/svg/marquee/muffin.svg"} alt="icons" width={80} height={80} />
         <Image src={"/assests/svg/marquee/sand.svg"} alt="icons" width={80} height={80} />
-        <p className="font-nosifer text-[90px] text-[#8be46b]">Bread Factory</p> 
+        <p className="font-blackadder text-[90px] text-[#8be46b]">Bread Factory</p> 
         <Image src={"/assests/svg/marquee/bread.svg"} alt="icons" width={80} height={80} />
         <Image src={"/assests/svg/marquee/cake.svg"} alt="icons" width={80} height={80} />
         <Image src={"/assests/svg/marquee/cookie.svg"} alt="icons" width={80} height={80} />

@@ -12,8 +12,13 @@ export default function Contact() {
       });
 
       if (!response.ok) {
-        console.log("falling over");
-        throw new Error(`response status: ${response.status}`);
+        const errorText = await response.text();
+        console.log("Error Response:", {
+          status: response.status,
+          statusText: response.statusText,
+          body: errorText,
+        });
+        throw new Error(`Response status: ${response.status}`);
       }
       const responseData = await response.json();
       console.log(responseData["message"]);
