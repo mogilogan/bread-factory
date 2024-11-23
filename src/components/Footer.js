@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
 
-    <div className="bg-black max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
+    <div className="bg-black  px-4 py-4 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
        
         <div className="flex justify-center mt-8 space-x-6">
             <a href="https://www.facebook.com/share/1Au6p5hg3S/" target='_blank' className="text-gray-400 hover:text-gray-500">
@@ -42,7 +42,7 @@ const Footer = () => {
             
         </div>
         <p className="mt-8 text-base leading-6 text-center text-gray-400">
-            © 2021 SomeCompany, Inc. All rights reserved.
+            2024 - Bread factory
         </p>
     </div>
 

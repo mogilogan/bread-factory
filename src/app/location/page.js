@@ -3,15 +3,15 @@ import React from "react";
 
 const Location = () => {
   return (
-    <div className="h-[90vh] flex flex-col">
+    <div className=" flex flex-col">
       <div>
-        <h1 className="text-center md:text-2xl">
+        <h1 className="text-center md:text-2xl my-8">
           Click Anywhere to take to location{" "}
         </h1>
       </div>
-      <a href="https://maps.app.goo.gl/PFHt3rXaH7k7LeLr7" target="_blank"><div className="rounded-3xl overflow-hidden translate-x-0 w-[80%] mx-auto">
+      <a href="https://maps.app.goo.gl/PFHt3rXaH7k7LeLr7" target="_blank"><div className="max-h-[500px] max-w-[800px] rounded-3xl overflow-hidden bg-black  w-[80%] mx-auto">
         <video
-          className="max-h-[700px] w-full rounded-3xl overflow-hidden"
+          className=" w-full rounded-3xl overflow-hidden"
           loop
           preload="none"
           muted

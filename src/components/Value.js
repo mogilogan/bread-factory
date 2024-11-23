@@ -6,7 +6,7 @@ const Value = () => {
     <div>
       <div className="flex flex-col md:flex-row justify-center items-center h-[400px] gap-[10%] my-10">
   {[
-    { text: "No Chemical Policy", src: "assests/svg/no-chemical.svg" },
+    { text: "Zero Chemical Policy", src: "assests/svg/no-chemical.svg" },
     { text: "Customizable Cakes", src: "assests/svg/cake.svg" },
     { text: "More Flavours", src: "assests/svg/bread.svg" },
   ].map((item, index) => (

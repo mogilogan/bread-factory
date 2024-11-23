@@ -16,7 +16,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
+video {
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  overflow: hidden;
+}
 
 /* :root {
   --background: #ffffff;
