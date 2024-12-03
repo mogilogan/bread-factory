@@ -3,7 +3,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="w-full flex flex-col lg:flex-row   pt-10 bg-[]">
+    <div className="w-full flex  flex-col  pt-10 bg-[]">
       <div className="flex flex-col  flex-1  ">
         {/* Adjust the margin-bottom here to reduce the gap */}
         <div className="hidden sm:block  mx-auto pr-[140px]">
@@ -18,16 +18,9 @@ const Home = () => {
         </p>
       </div>
 
-      <div className=" flex justify-center mx-auto items-center flex-1 ">
-        <Image
-        unoptimized
-          src={"/assests/head4.gif"}
-          width={0}
-          className="w-full lg:w-[700px] h-full rounded-3xl p-4"
-          height={300}
-          alt="head"
-        />
-      </div>
+    <div>
+    <Image  src={"/assests/home.jpg"} unoptimized className="w-[75%] h-[75%] mx-auto my-8 rounded-3xl" width={0} height={0} alt="logo" />
+    </div>
     </div>
   );
 };
